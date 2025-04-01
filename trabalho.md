@@ -79,12 +79,12 @@ Em termos tecnológicos, o HPPT possui:
 
 Este projeto executivo visa estabelecer um Security Operations Center (SOC) personalizado para o Hospital Central Tecnológico, com foco em:
 
-1. Proteger dados sensíveis de pacientes e informações clínicas
-2. Garantir a disponibilidade ininterrupta de sistemas críticos para o atendimento
-3. Detectar e responder rapidamente a ameaças cibernéticas específicas do setor hospitalar
-4. Assegurar conformidade com a LGPD e outras regulamentações aplicáveis
-5. Desenvolver capacidades internas para monitoramento, detecção e resposta a incidentes
-6. Estabelecer protocolos de cooperação para compartilhamento de informações sobre ameaças
+1. Proteger dados sensíveis de pacientes e informações clínicas (Winter: intro)
+2. Garantir a disponibilidade ininterrupta de sistemas críticos para o atendimento (Winter: como seria a forma ininterrupta?!)
+3. Detectar e responder rapidamente a ameaças cibernéticas específicas do setor hospitalar (Julio: criar tabela - tipo de vulnerabilidade, criticidade, SLA, )
+4. Assegurar conformidade com a LGPD e outras regulamentações aplicáveis (Winter: desenvolver mais)
+5. Desenvolver capacidades internas para monitoramento, detecção e resposta a incidentes (Amarildo: estratégia de monitoramento e ferramentas)
+6. Estabelecer protocolos de cooperação para compartilhamento de informações sobre ameaças (Julio: In progress)
 
 O SOC proposto será dimensionado para as necessidades específicas do HCT, considerando seus recursos tecnológicos, humanos e financeiros, bem como os riscos específicos ao seu ambiente operacional.
 
