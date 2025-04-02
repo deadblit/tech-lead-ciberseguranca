@@ -40,9 +40,15 @@ O uso de IA e automação reduziu os custos das violações em até US$ 2,22 mil
 
 #### Consequencias de ataques e cases (Amarildo)
 
-Segundo relatórios recentes, ataques ransomware contra instituições de saúde aumentaram significativamente nos últimos anos, com consequências que vão desde o cancelamento de cirurgias até o redirecionamento de ambulâncias. Violações de dados expõem informações médicas confidenciais, que possuem valor persistente no mercado negro, diferentemente de dados financeiros que podem ser rapidamente invalidados. Um registro médico completo pode valer até 50 vezes mais que um número de cartão de crédito no mercado negro.
+Ataques cibernéticos ao setor de saúde têm se tornado uma das principais ameaças à segurança das informações e à continuidade dos serviços médicos. Com o aumento do uso de tecnologia e sistemas digitais nos hospitais e clínicas, os cibercriminosos têm explorado vulnerabilidades, visando dados sensíveis dos pacientes, como históricos médicos, diagnósticos e informações pessoais. Os ransomware, phishing e ataques DDoS são as formas mais comuns desses ataques. As consequências podem ser devastadoras: desde a perda de dados médicos essenciais até a interrupção de serviços de saúde críticos, afetando diretamente a vida dos pacientes. Em alguns casos, como já documentado, ataques cibernéticos resultaram em mortes e danos irreparáveis à integridade física de pessoas. Além disso, as instituições de saúde enfrentam prejuízos financeiros significativos, tanto pelos custos associados ao resgate (no caso de ransomware), quanto pela paralisação de sistemas e a reconstrução de infraestruturas comprometidas.
 
-Casos notáveis como o do Hospital Universitário de Düsseldorf em 2020, onde um ataque ransomware resultou na morte de uma paciente que precisou ser transferida quando os sistemas do hospital ficaram inacessíveis, evidenciam o potencial letal dessas ameaças. No Brasil, ataques como o sofrido pela Rede D'Or São Luiz em 2021 demonstram que nenhuma instituição está imune, independentemente de seu porte ou recursos.
+No cenário global, os números de ataques cibernéticos no setor de saúde são alarmantes. Em 2024, 43% das empresas de saúde ao redor do mundo foram vítimas de ciberataques, com destaque para os ataques de ransomware, que continuam a ser uma das maiores ameaças à segurança cibernética no setor (Kaspersky, 2024). No Brasil, o cenário é igualmente preocupante: 47% das instituições de saúde registraram ataques cibernéticos em 2024, evidenciando a crescente vulnerabilidade desse setor no país (Kaspersky, 2024). Em 2023, o aumento dos ataques foi significativo, com um crescimento de 20% em relação ao ano anterior, destacando o risco crescente de ciberameaças à medida que a digitalização do setor de saúde avança (Check Point Research, 2023). Esses dados ressaltam a urgência da implementação de medidas de segurança cibernética no setor, a fim de proteger tanto as informações dos pacientes quanto a continuidade dos serviços médicos.
+
+Em termos de casos emblemáticos, o ataque ao Hospital Universitário de Düsseldorf na Alemanha, em 2020, se destaca como um dos mais graves e significativos no setor de saúde. O ataque de ransomware resultou na morte de uma paciente, que não conseguiu receber o tratamento adequado devido à interrupção dos sistemas hospitalares (BBC News, 2020). Esse incidente trouxe à tona as consequências fatais que um ataque cibernético pode causar quando sistemas críticos de saúde são comprometidos. Outro caso de grande repercussão foi o ataque ao National Health Service (NHS) no Reino Unido em 2017, que afetou mais de 200.000 pessoas, causando o cancelamento de cirurgias e consultas e expondo a vulnerabilidade dos sistemas de saúde pública à ação de cibercriminosos (Reuters, 2017).
+
+No Brasil, a Rede D'Or São Luiz, uma das maiores redes hospitalares privadas do país, foi alvo de um ataque cibernético em 2021. O incidente resultou na perda de dados sensíveis de pacientes e na interrupção de serviços médicos essenciais, afetando a operação da rede hospitalar (Exame, 2021). Outros exemplos de ataques no Brasil incluem o caso do Hospital das Clínicas da USP, que sofreu um ataque de ransomware em 2020, comprometendo dados dos pacientes e paralisando serviços médicos essenciais, e o ataque à Prefeitura de Vitória, que afetou serviços de saúde pública no município (G1, 2020; Gazeta Online, 2020). Esses incidentes destacam o impacto crescente dos ataques cibernéticos em hospitais tanto públicos quanto privados no Brasil, com consequências graves para a continuidade dos tratamentos e segurança dos dados dos pacientes.
+
+Historicamente, antes de 2023, os dados sobre ataques cibernéticos ao setor de saúde eram limitados, e os registros sobre as consequências diretas desses ataques, como mortes ou perda de dados médicos, eram escassos ou pouco divulgados. No entanto, a partir de 2023, houve um aumento significativo na documentação de ataques e suas repercussões, com uma ênfase maior em como as interrupções podem afetar diretamente a saúde dos pacientes. Em comparação aos dados de 2023, os números de 2024 indicam um crescimento no número de ataques ao setor, com o aumento de ransomware sendo um dos fatores mais preocupantes. O aumento de 20% nos incidentes em 2024, em relação a 2023, reflete uma escalada da ameaça à medida que os cibercriminosos continuam a aprimorar suas táticas e direcionar suas ações para um setor vulnerável e crucial para a sociedade (Kaspersky, 2024; Check Point Research, 2023).
 
 **// TODO (amarildo): revisar e expandir os dois parágrafos acima - e falar sobre o incidente da Rede D'Or**
 
@@ -73,12 +79,12 @@ Em termos tecnológicos, o HPPT possui:
 
 Este projeto executivo visa estabelecer um Security Operations Center (SOC) personalizado para o Hospital Central Tecnológico, com foco em:
 
-1. Proteger dados sensíveis de pacientes e informações clínicas
-2. Garantir a disponibilidade ininterrupta de sistemas críticos para o atendimento
-3. Detectar e responder rapidamente a ameaças cibernéticas específicas do setor hospitalar
-4. Assegurar conformidade com a LGPD e outras regulamentações aplicáveis
-5. Desenvolver capacidades internas para monitoramento, detecção e resposta a incidentes
-6. Estabelecer protocolos de cooperação para compartilhamento de informações sobre ameaças
+1. Proteger dados sensíveis de pacientes e informações clínicas (Winter: intro)
+2. Garantir a disponibilidade ininterrupta de sistemas críticos para o atendimento (Winter: como seria a forma ininterrupta?!)
+3. Detectar e responder rapidamente a ameaças cibernéticas específicas do setor hospitalar (Julio: criar tabela - tipo de vulnerabilidade, criticidade, SLA, )
+4. Assegurar conformidade com a LGPD e outras regulamentações aplicáveis (Winter: desenvolver mais)
+5. Desenvolver capacidades internas para monitoramento, detecção e resposta a incidentes (Amarildo: estratégia de monitoramento e ferramentas)
+6. Estabelecer protocolos de cooperação para compartilhamento de informações sobre ameaças (Julio: In progress)
 
 O SOC proposto será dimensionado para as necessidades específicas do HCT, considerando seus recursos tecnológicos, humanos e financeiros, bem como os riscos específicos ao seu ambiente operacional.
 
