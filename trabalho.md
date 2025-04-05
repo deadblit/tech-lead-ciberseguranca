@@ -36,8 +36,6 @@ O setor de saúde continua sendo o mais afetado por violação de dados, com um 
 
 O uso de IA e automação reduziu os custos das violações em até US$ 2,22 milhões e acelerou a detecção e contenção dos incidentes. A OMS reportou um aumento de 500% nos incidentes de segurança cibernética em instalações de saúde durante a pandemia de COVID-19, período em que a digitalização acelerada dos serviços criou novas vulnerabilidades.
 
-**// TODO (julio): revisar e sumarizar parágrafo acima**
-
 #### Consequencias de ataques e cases (Amarildo)
 
 Ataques cibernéticos ao setor de saúde têm se tornado uma das principais ameaças à segurança das informações e à continuidade dos serviços médicos. Com o aumento do uso de tecnologia e sistemas digitais nos hospitais e clínicas, os cibercriminosos têm explorado vulnerabilidades, visando dados sensíveis dos pacientes, como históricos médicos, diagnósticos e informações pessoais. Os ransomware, phishing e ataques DDoS são as formas mais comuns desses ataques. As consequências podem ser devastadoras: desde a perda de dados médicos essenciais até a interrupção de serviços de saúde críticos, afetando diretamente a vida dos pacientes. Em alguns casos, como já documentado, ataques cibernéticos resultaram em mortes e danos irreparáveis à integridade física de pessoas. Além disso, as instituições de saúde enfrentam prejuízos financeiros significativos, tanto pelos custos associados ao resgate (no caso de ransomware), quanto pela paralisação de sistemas e a reconstrução de infraestruturas comprometidas.
@@ -147,6 +145,66 @@ Falhas de autenticação em aplicativos médicos e sistemas de telemedicina pode
 #### Malware on USB Devices and Internal Connections
 
 Funcionários conectam pendrives infectados, instalando vírus nos sistemas hospitalares, enquanto hackers podem comprometer impressoras, câmeras e computadores administrativos para escalar privilégios.
+
+
+## Compartilhamento de informações e análise de tendências
+Fazer parte de uma ISAC é crucial para fortalecer nossa segurança cibernética, permitindo o compartilhamento de informações sobre ameaças em tempo real e garantindo uma resposta mais ágil e eficaz a incidentes. A colaboração entre organizações nos ajuda a minimizar riscos e danos, além de proporcionar acesso a melhores práticas, ferramentas de análise e treinamento especializado. Em um ambiente digital cada vez mais complexo, a união de forças é essencial para proteger dados sensíveis e preservar a confiança dos pacientes.
+
+### Análise Comparativa de ISAC's com foco na área de saúde
+![tabela comparativa de ISAC's](./assets/isac.png)
+
+<!-- table markdown version
+| **ISAC**           | **Foco**                           | **Serviços Principais**                                | **Abrangência**                         | **Custo**                  | **Público-Alvo**                          | **Recursos Adicionais**                               | **Quantidade de Membros**               |
+|--------------------|------------------------------------|--------------------------------------------------------|-----------------------------------------|----------------------------|-------------------------------------------|------------------------------------------------------|----------------------------------------|
+| **Health-ISAC**     | Segurança cibernética para o setor de saúde | Compartilhamento de informações sobre ameaças, alertas em tempo real, análises de vulnerabilidades | Global, focado em organizações de saúde | Taxas anuais com base no tamanho da organização | Hospitais, clínicas, planos de saúde, fornecedores de tecnologia | Webinars, conferências, relatórios de inteligência sobre ameaças, serviços de resposta a incidentes | Mais de 1.000 membros, incluindo grandes hospitais e fornecedores de tecnologia |
+| **NH-ISAC**         | Proteção de dados e sistemas de saúde nos EUA | Alertas de segurança, análise de ameaças, colaboração e suporte a incidentes | Nacional, com foco nos EUA | Custos baseados no tamanho da organização, com opções mais acessíveis para pequenos membros | Organizações de saúde dos EUA, governos e fornecedores de serviços de saúde | Apoio a políticas públicas, discussões sobre segurança cibernética, recursos educacionais | Aproximadamente 250 a 300 membros, incluindo hospitais e empresas de tecnologia |
+| **Medi-ISAC**       | Segurança cibernética para dispositivos médicos | Avaliações de risco, segurança de dispositivos médicos, melhores práticas no setor | Focado em dispositivos médicos e tecnologias associadas | Custo variável, adaptado ao perfil dos membros | Fabricantes de dispositivos médicos, fornecedores de tecnologia médica | Análises de vulnerabilidades em dispositivos médicos, relatórios sobre segurança em tecnologias médicas | Menor número de membros, focado em fabricantes e fornecedores de tecnologia médica |
+
+ -->
+
+### Sugestão de ISAC: Proposta de Melhoria após Análise Comparativa
+
+ O Health-ISAC é a melhor opção devido à sua rede global que conecta diversas organizações de saúde, permitindo acesso a informações e alertas sobre ameaças em tempo real. Ele oferece recursos valiosos, como análises de vulnerabilidades, relatórios de inteligência e treinamentos especializados. Essa abordagem colaborativa garante proteção eficaz de dados sensíveis e mantém a confiança dos pacientes.
+
+
+#### Detalhamento de custos
+<!-- markdown version
+
+| **Item**                 | **Valor Estimado**                        | **Detalhes**                                                         |
+|--------------------------|------------------------------------------|---------------------------------------------------------------------|
+| Custo Inicial (Taxa de Adesão) | $2.500  a  $5.000                     | A taxa de adesão inicial varia conforme o tamanho da organização. Como um hospital de grande porte, esperamos que a adesão inicial fique dentro dessa faixa. |
+| Custo Anual de Manutenção | $20.000  a  $25.000+                   | O custo anual depende de fatores como o volume de dados e serviços acessados. Para o HPP, estimamos que o custo anual será de acordo com o tamanho da estrutura e o nível de acesso aos serviços da ISAC. |
+| Forma de Cálculo     | Baseado no porte e serviços adicionais | A adesão é calculada com base no porte da instituição (1.500 funcionários e 350 leitos). O custo pode aumentar se forem incluídos serviços adicionais como treinamentos especializados, suporte prioritário e acesso a relatórios exclusivos. |
+| Serviços Adicionais  | $5.000  a  $10.000+ (variável)          | Serviços adicionais como workshops, webinars especializados e relatórios de inteligência podem ser contratados separadamente, dependendo da necessidade do hospital. |
+
+ -->
+![custos de adesão ao ISAC](./assets/costs.png)
+
+## Plano de Resposta a Incidentes Cibernéticos Hospitalares
+
+Este plano é essencial para assegurar a resposta rápida e eficaz a incidentes cibernéticos, minimizando impactos nas operações do hospital. Ele ajuda a proteger dados sensíveis e a garantir que os sistemas críticos continuem funcionando sem interrupções. Além disso, contribui para a proteção da reputação da instituição e a redução de riscos financeiros, fornecendo uma estrutura clara para a equipe de TI lidar com qualquer incidente de forma coordenada e eficiente.
+
+### Definição de criticidade
+**Alta:** Incidentes que afetam a segurança dos dados sensíveis dos pacientes ou a operação crítica do hospital, como ransomware ou falhas no monitoramento de UTI.
+
+**Média:** Incidentes que causam interrupções ou riscos, mas que podem ser mitigados sem danos significativos à segurança dos pacientes ou à infraestrutura.
+
+**Baixa:** Incidentes que não impactam diretamente a saúde dos pacientes ou a operação do hospital, mas que ainda precisam ser gerenciados adequadamente, como ataques de DoS.
+
+
+![custos de adesão ao ISAC](./assets/sla.png)
+
+<!-- markdown version
+
+| **Incidente**                                        | **SLA (Tempo de Resposta)** | **Criticidade** | **Tipo de Vulnerabilidade**                                                  | **Ação Recomendada**                                                                                       |
+| ---------------------------------------------------- | --------------------------- | --------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Ataques Ransomware e Malware**                     | 3 dias                      | Alta            | Exploração de vulnerabilidades em software desatualizado ou mal-intencionado | Isolar sistemas afetados, iniciar análise forense, restaurar de backups seguros, comunicar com autoridades |
+| **Vazamento de Dados Sensíveis**                     | 2 dias                      | Alta            | Acesso não autorizado a dados pessoais de pacientes                          | Notificar autoridades, corrigir falha de segurança, revisar logs de acesso, comunicar pacientes afetados   |
+| **Falhas em Sistemas Críticos (UTI, Monitoramento)** | 1 dia                       | Alta            | Falha nos sistemas médicos ou de monitoramento essenciais                    | Diagnóstico imediato do sistema, restaurar de backup, notificar equipe médica e técnica                    |
+| **Ataques de Phishing e Engenharia Social**          | 7 dias                      | Média           | Engano de funcionários para captura de credenciais ou dados                  | Bloquear e-mails maliciosos, realizar varredura de dispositivos, treinamento adicional para equipe         |
+| **Atualização de Software Não Crítica**              | 20 dias                     | Baixa           | Atualização de software ou aplicativo não essencial para operações diárias   | Agendar atualização durante o horário de menor uso, notificar usuários sobre a manutenção programada       |
+
+ -->
 
 ## Referências
 
