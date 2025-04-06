@@ -73,6 +73,38 @@ Em termos tecnológicos, o HPPT possui:
 - Diversos sistemas departamentais (laboratório, farmácia, radiologia)
 - Infraestrutura híbrida com serviços em nuvem e on-premises
 
+
+**1. Perfil Institucional – Hospital São Rafael (HSR)**
+
+O Hospital São Rafael (HSR) é uma instituição privada de grande porte, localizada em uma capital brasileira de médio a grande porte. Fundado em 2006, o hospital possui atualmente 420 leitos, dos quais 60 são destinados à terapia intensiva (UTI), distribuídos entre adultos, pediátricos e neonatais.
+
+Com uma área construída de aproximadamente 32 mil metros quadrados, o HSR realiza cerca de 18.000 atendimentos mensais, incluindo 1.900 internações, 600 cirurgias e 7.000 consultas ambulatoriais. Seu corpo funcional é composto por aproximadamente 2.100 colaboradores, sendo 230 médicos, 520 profissionais de enfermagem, 80 técnicos de TI e cerca de 1.270 colaboradores administrativos, operacionais e de apoio.
+
+Em sua trajetória de 19 anos, o hospital tem investido fortemente na modernização de processos clínicos e administrativos por meio da transformação digital.
+
+**2. Gestão de Prontuários e Informações Sensíveis**
+
+O HSR opera com um sistema de Prontuário Eletrônico do Paciente (PEP) que é amplamente utilizado por toda a equipe clínica e administrativa. Estima-se que sejam criados aproximadamente 1.200 novos prontuários por semana, totalizando um acervo ativo superior a 980.000 registros eletrônicos de pacientes.
+
+O acesso ao PEP é realizado por meio de estações de trabalho, dispositivos móveis e tablets, com integração direta aos sistemas de laboratório, farmácia, radiologia e UTI. A instituição adota uma abordagem híbrida para o armazenamento desses dados, mantendo parte da infraestrutura on-premises e parte em nuvem, com redundância e backups periódicos.
+
+**3. Recursos Humanos e Organização Administrativa**
+
+O hospital conta com uma equipe multidisciplinar robusta e um setor administrativo estruturado, responsável pelas áreas de recursos humanos, financeiro, compras, faturamento, suprimentos e auditoria médica. O ERP hospitalar utilizado pelo HSR integra os módulos administrativos, contábeis, de custos e operacionais, oferecendo visibilidade ampla da operação hospitalar.
+
+A área de Tecnologia da Informação é composta por equipes especializadas em infraestrutura local, suporte técnico, aplicações e segurança da informação. A central de TI possui um analista de cibersegurança dedicado, embora não conte com um Centro de Operações de Segurança (SOC) 24x7 ou com mecanismos de resposta automatizada a incidentes.
+
+**4. Infraestrutura Tecnológica**
+
+O HSR possui uma infraestrutura híbrida de TI, com servidores críticos hospedados localmente e soluções modernas em nuvem pública, utilizando principalmente os provedores Azure e AWS. Os principais sistemas hospitalares estão integrados e compartilham informações em tempo real.
+
+A instituição opera uma rede Wi-Fi segmentada para visitantes, profissionais e equipamentos médicos. Também oferece serviços de telemedicina, com cerca de 150 atendimentos por dia, conectando médicos e pacientes em diferentes regiões.
+
+5. Dispositivos IoMT e Integração Clínica
+
+O hospital conta com aproximadamente 290 dispositivos médicos conectados à rede (IoMT), incluindo monitores multiparâmetros, bombas de infusão, ventiladores mecânicos, dispositivos de imagem e equipamentos laboratoriais automatizados. A conectividade entre esses dispositivos e os sistemas clínicos permite uma gestão eficiente e em tempo real dos dados vitais dos pacientes, contribuindo para diagnósticos mais precisos e decisões clínicas mais ágeis.
+
+
 ### Objetivos do Projeto
 
 Este projeto executivo visa estabelecer um Security Operations Center (SOC) personalizado para o Hospital Central Tecnológico, com foco em:
